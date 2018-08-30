@@ -1,9 +1,0 @@
- 1  mkdir ~/desktop/oslab
- 2  cd ~/desktop
- 3  ls Z
- 4  ls ~
- 5  ls
- 6  cd root
- 7  ls
- 8  cat history
- 9  history > ~/hist.txt
