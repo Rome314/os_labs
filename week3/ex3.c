@@ -47,8 +47,8 @@ void delete(struct Node **head, int key)
  
     if (temp != NULL && temp->value == key)
     {
-        *head = temp->next;   // Changed head
-        free(temp);               // free old head
+        *head = temp->next; 
+        free(temp);              
         return;
     }
  
@@ -78,7 +78,7 @@ int main(){
     
     printing(begin);
     
-    delete(&begin,6);
+    delete(&begin,3);
     delete(&begin,4);
     printing(begin);
     
