@@ -1,0 +1,29 @@
+systemd-+-accounts-daemon-+-{gdbus}
+        |                 `-{gmain}
+        |-acpid
+        |-agetty
+        |-atd
+        |-cron
+        |-dbus-daemon
+        |-irqbalance
+        |-2*[iscsid]
+        |-lvmetad
+        |-lxcfs---2*[{lxcfs}]
+        |-mdadm
+        |-polkitd-+-{gdbus}
+        |         `-{gmain}
+        |-rsyslogd-+-{in:imklog}
+        |          |-{in:imuxsock}
+        |          `-{rs:main Q:Reg}
+        |-snapd---7*[{snapd}]
+        |-sshd-+-sshd---bash
+        |      `-sshd---bash-+-ex2-+-ex2-+-ex2---ex2
+        |                    |     |     `-ex2
+        |                    |     |-ex2---ex2
+        |                    |     `-ex2
+        |                    `-pstree
+        |-systemd---(sd-pam)
+        |-systemd-journal
+        |-systemd-logind
+        |-systemd-timesyn---{sd-resolve}
+        `-systemd-udevd
