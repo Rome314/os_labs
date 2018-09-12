@@ -5,12 +5,12 @@ int main(){
     
     int i;
     
-    for(i = 0; i < 3; i++ ){
+    for(i = 0; i < 5; i++ ){
         fork();
+	printf("Sleeping \n");
+   	sleep(5);
+   	printf("Not Sleeping \n");	
     }
     
-    printf("Sleeping \n");
-    sleep(5);
-    printf("Not Sleeping \n");
     return 0;
 }
