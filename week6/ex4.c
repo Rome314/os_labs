@@ -3,9 +3,9 @@
 #include <stdlib.h>
 void feedback(int sign){
     
-    if(sign == SIGINT){
+    if(sign == SIGSTOP){
         
-        printf("\nSIGINT Catched!\n");
+        printf("\nSIGSTOP Catched!\n");
        // break;
     }
     else if(sign == SIGKILL){
@@ -22,7 +22,7 @@ void feedback(int sign){
 int main(){
     
     while(1){
-        signal(SIGINT,feedback);
+        signal(SIGSTOP,feedback);
         signal(SIGKILL,feedback);
         signal(SIGUSR1,feedback);
     }
