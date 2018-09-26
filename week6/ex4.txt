@@ -1,0 +1,5 @@
+root@Rome001:~/Linux/os_labs/week6# ./ex4 &
+[3] 23454
+root@Rome001:~/Linux/os_labs/week6# kill -SIGUSR1 23454
+root@Rome001:~/Linux/os_labs/week6#
+SIGUSR1 Catched!
