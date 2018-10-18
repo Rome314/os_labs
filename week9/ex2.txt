@@ -1,0 +1,3 @@
+To increase hits and decrease misses we need make as much as possible equal references in a row. 
+And vice versa in case of increasing misses and decreasing hits.
+For example 3 4 5 6 7 3 4 5 6 7 3 4 5 6 7 and so on. 
