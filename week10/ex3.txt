@@ -1,0 +1,5 @@
+-rw-r--r-- 1 root root 0 Oct 25 21:45 ex3.txt
+-rwxrw-rwx 1 root root 46 Oct 25 21:46 ex3.txt
+-rw-rw---- 1 root root 93 Oct 25 21:47 ex3.txt
+-rwxrwxr-x 1 root root 140 Oct 25 22:14 ex3.txt
+-rwxrwxrwx 1 root root 188 Oct 25 22:14 ex3.txt
