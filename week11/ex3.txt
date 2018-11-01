@@ -1,0 +1,9 @@
+program 1:
+
+string is "Hello".
+        "Hello" is printed twice.
+
+program 2:
+
+string is "Hello\n"
+    "Hello" is printed once.
