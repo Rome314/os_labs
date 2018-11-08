@@ -1,0 +1,3 @@
+Without O_SYNC, it works faster. 
+No waiting for the end of the previous system call. 
+As the buffer size increases, the speed increases, because  fewer system calls runs 

@@ -1,0 +1,55 @@
+processor	: 0
+sizevendor_id	: GenuineIntel
+sizecpu family	: 6
+sizemodel		: 63
+sizemodel name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+sizestepping	: 2
+sizemicrocode	: 0xffffffff
+sizecpu MHz		: 2292.222
+sizecache size	: 25600 KB
+sizephysical id	: 0
+sizesiblings	: 2
+sizecore id		: 0
+sizecpu cores	: 2
+sizeapicid		: 0
+sizeinitial apicid	: 0
+sizefpu		: yes
+sizefpu_exception	: yes
+sizecpuid level	: 15
+sizewp		: yes
+sizeflags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single spec_ctrl kaiser fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt
+sizebugs		:
+sizebogomips	: 4584.44
+sizeclflush size	: 64
+sizecache_alignment	: 64
+sizeaddress sizes	: 44 bits physical, 48 bits virtual
+sizepower management:
+size
+sizeprocessor	: 1
+sizevendor_id	: GenuineIntel
+sizecpu family	: 6
+sizemodel		: 63
+sizemodel name	: Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+sizestepping	: 2
+sizemicrocode	: 0xffffffff
+sizecpu MHz		: 2292.222
+sizecache size	: 25600 KB
+sizephysical id	: 0
+sizesiblings	: 2
+sizecore id		: 1
+sizecpu cores	: 2
+sizeapicid		: 1
+sizeinitial apicid	: 1
+sizefpu		: yes
+sizefpu_exception	: yes
+sizecpuid level	: 15
+sizewp		: yes
+sizeflags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single spec_ctrl kaiser fsgsbase bmi1 avx2 smep bmi2 erms invpcid xsaveopt
+sizebugs		:
+sizebogomips	: 4584.44
+sizeclflush size	: 64
+sizecache_alignment	: 64
+sizeaddress sizes	: 44 bits physical, 48 bits virtual
+sizepower management:
+size
+size
